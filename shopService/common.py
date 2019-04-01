@@ -48,3 +48,4 @@ def build_trace_headers(handler):
             header_value = handler.headers.get(header)
             retHeaders[header] = header_value
     return retHeaders
+
